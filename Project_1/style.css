@@ -64,3 +64,75 @@
     border: none;
 
   }
+
+  .col-6a{
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  .col-6a  p, button {
+    margin-left: 10%;
+    word-wrap: break-word;
+    width: 60%;
+    
+    
+  }
+.col-6a p{
+    font-size: 25px;
+}
+
+.col-6a h1{
+    font-size: 35px;
+    margin-left: 10%;
+    word-wrap: break-word;
+    width: 60%;
+}
+#home{
+    /* background-color: aqua; */
+    background-image: url(images\bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: center; */
+}
+
+.col-6 h1,p{
+    margin-left: 10%;
+    width: 60%;
+
+}
+
+.col-6 h1{
+    font-size: 35px;
+    /* margin-top: 10%; */
+}
+
+.col-6 p{
+    font-size: 25px;
+}
+
+.col-4{
+    border: solid gainsboro;
+    border-radius: 16px;
+    /* margin-left: 1px; */
+}
+.col-4 p{
+    margin-left: 17%;
+    /* background-color: grey; */
+    
+}
+#review{
+    background-color: lightgrey;
+}
+
+.but3{
+
+    padding: 1%;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    width: 10%;
+    text-align: center;
+    
+
+}
