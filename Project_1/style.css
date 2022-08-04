@@ -1,5 +1,7 @@
 *{
+    /* Helvetica */
     box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -42,7 +44,7 @@
   
   li a {
     display: block;
-    /* color: white; */
+    color: black;
     text-align: center;
     padding: 8px ;
     text-decoration: none;
@@ -50,7 +52,8 @@
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color:orange;
+    /* background-color:orange; */
+    background-color: hsl(12, 88%, 59%);
     border-radius: 16px;
   }
  
@@ -60,7 +63,7 @@
     border-radius: 16px;
     width: 40%;
     color: whitesmoke;
-    background-color: orange;
+    background-color: hsl(12, 88%, 59%);
     border: none;
 
   }
@@ -127,12 +130,28 @@
 .but3{
 
     padding: 1%;
-    background-color: orange;
+    background-color: hsl(12, 88%, 59%);
     color: white;
     border: none;
     border-radius: 16px;
     width: 10%;
     text-align: center;
+    margin-right: 10%;
     
 
+}
+
+#simplify{
+    background-color: hsl(12, 88%, 59%);
+    color: whitesmoke;
+}
+#simplebut{
+    background-color: white;
+     color:  hsl(12, 88%, 59%);
+     padding: 3%;
+    border-radius: 16px;
+    width: 40%;
+    border: none;
+    margin-top: 6%;
+    
 }
