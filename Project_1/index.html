@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
     <!-- <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine"> -->
 </head>
 <body>
-    <head>
+   
         <div class="row">
             <div class="col-12">
                 <div class="col-3">
@@ -18,13 +20,18 @@
                     </div>
                 </div>
                 <div class="col-6">
-                        <ul>
-                            <li><a href="">Pricing</a></li>
-                            <li><a href="">Product</a></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Community</a></li>
-                            <li><a href="">Careers</a></li>
-                        </ul>
+                    <div class="topnav" id ="myTopnav">
+                        
+                            <a href="">Pricing</a>
+                            <a href="">Product</a>
+                            <a href="">About Us</a>
+                            <a href="">Community</a>
+                            <a href="">Careers</a>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                              </a>
+                        
+                    </div>
                 </div>
                 <div class="col-3">
                     <button class="nav-but">Get Started</button>
@@ -167,6 +174,6 @@
                 </div>
             </div>
         </div>
-    </head>
+    
 </body>
 </html>
